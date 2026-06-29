@@ -145,8 +145,8 @@ Directory structure:
 
 This is a Design Thinking Lab (DTL) project for the MCA 2nd semester focused on designing an efficient beekeeping solution and hive box system.
 
-**Project Name:** Efficient Beekeeping and Hive Box  
-**Team:** Pavan Mohan Naik, Sumanth Bhaskar Hegde, Pramath Prakash Hegde  
+**Project Name:** Efficient Beekeeping and Hive Box
+**Team:** Pavan Mohan Naik, Sumanth Bhaskar Hegde, Pramath Prakash Hegde
 **Guide:** Dr. Mohan Aradhya
 
 ## Project Structure
