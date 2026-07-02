@@ -151,6 +151,18 @@ This is a Design Thinking Lab (DTL) project for the MCA 2nd semester focused on 
 
 ## Project Structure
 
+* Beekeeping-DTL: Efficient Beekeeping and Hive Box
+  * File Structure
+  * Project Overview
+  * Project Structure
+    * 01-empathy/
+    * 02-define/
+    * 03-ideate/
+    * 04-prototype/
+    * 05-test/
+  * Getting Started
+  * Contributing
+
 The repository is organized following the Design Thinking methodology with the following phases:
 
 ### 01-empathy/
