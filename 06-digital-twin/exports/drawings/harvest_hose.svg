@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420.0mm" height="297.0mm"
+ viewBox="0 0 420.0 297.0" font-family="Arial, sans-serif" fill="#111">
+<defs><marker id="arr" viewBox="0 0 6 6" refX="3" refY="3" markerWidth="5"
+ markerHeight="5" orient="auto-start-reverse">
+ <path d="M0,0 L6,3 L0,6 z" fill="#444"/></marker></defs>
+<rect width="420.0" height="297.0" fill="white"/>
+<rect x="4" y="4" width="412.0" height="289.0" fill="none"
+ stroke="#333" stroke-width="0.6"/>
+<text x="12.0" y="11" font-size="6" font-weight="bold">harvest_hose</text>
+<text x="408.0" y="11" font-size="4.5" text-anchor="end"
+ fill="#666">Beekeeping DTL - Digital Twin - third-angle projection</text>
+<rect x="12.0" y="14" width="186.0" height="118.0" fill="none" stroke="#bbb" stroke-width="0.2"/><text x="15.0" y="20" font-size="4.6" fill="#666">FRONT (X-Y)</text><svg x="102.8" y="26.9" width="4.5" height="92.1"  viewBox="-8.175 -168.199662 16.35 336.399324" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(1,-1)" stroke-linecap="round">
+    <g fill="none" stroke="rgb(0,0,0)" stroke-width="0.09" id="visible">
+      <path d="M 8.0,-167.999145 A 8.0,0.025516419855560725 -180.0 0,1 -8.0,-167.999145" />
+      <path d="M -8.0,-167.999145 A 8.0,0.025516419855560725 -180.0 0,1 8.0,-167.999145" />
+      <line x1="8.0" y1="167.999145" x2="8.0" y2="-167.999145" />
+      <path d="M 8.0,167.999145 A 8.0,0.025516419855560725 -180.0 0,1 -8.0,167.999145" />
+      <path d="M 5.0,-167.999145 A 5.0,0.015947762409725452 -180.0 0,1 -5.0,-167.999145" />
+      <path d="M -5.0,-167.999145 A 5.0,0.015947762409725452 -180.0 0,1 5.0,-167.999145" />
+      <line x1="-8.0" y1="167.999145" x2="-8.0" y2="-167.999145" />
+    </g>
+    <g fill="none" stroke="rgb(119,119,119)" stroke-width="0.2" id="hidden" stroke-dasharray="2.4 0.6">
+      <path d="M -8.0,167.999145 A 8.0,0.025516419855560725 -180.0 0,1 8.0,167.999145" />
+      <path d="M 5.0,167.999145 A 5.0,0.015947762409725452 -180.0 0,1 -5.0,167.999145" />
+      <path d="M -5.0,167.999145 A 5.0,0.015947762409725452 -180.0 0,1 5.0,167.999145" />
+      <line x1="5.0" y1="167.999145" x2="5.0" y2="-167.999145" />
+      <line x1="-5.0" y1="167.999145" x2="-5.0" y2="-167.999145" />
+    </g>
+  </g>
+</svg><line x1="102.8" y1="125.1" x2="107.2" y2="125.1" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="105.0" y="123.5" font-size="4.2" text-anchor="middle">16.0</text><line x1="113.2" y1="26.9" x2="113.2" y2="119.1" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="117.7" y="73.0" font-size="4.2" text-anchor="middle" transform="rotate(90 117.7 73.0)">336.0</text><rect x="206.0" y="14" width="186.0" height="118.0" fill="none" stroke="#bbb" stroke-width="0.2"/><text x="209.0" y="20" font-size="4.6" fill="#666">SIDE (Z-Y)</text><svg x="296.8" y="26.9" width="4.5" height="92.1"  viewBox="-8.175 -168.19959 16.35 336.399181" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(1,-1)" stroke-linecap="round">
+    <g fill="none" stroke="rgb(0,0,0)" stroke-width="0.09" id="visible">
+      <path d="M -0.024,-167.973711 A 8.0,0.025439756893756754 180.0 0,1 -8.0,-167.999151" />
+      <path d="M -8.0,-167.999151 A 8.0,0.025439756893756754 180.0 0,1 8.0,-167.999151" />
+      <path d="M 8.0,-167.999151 A 8.0,0.025439756893756754 180.0 0,1 -0.024,-167.973711" />
+      <path d="M -0.024,168.02459 A 8.0,0.025439756893756754 180.0 0,1 -8.0,167.999151" />
+      <path d="M 8.0,167.999151 A 8.0,0.025439756893756754 180.0 0,1 -0.024,168.02459" />
+      <path d="M -0.015,-167.983251 A 5.0,0.01589984805859797 180.0 0,1 -5.0,-167.999151" />
+      <path d="M -5.0,-167.999151 A 5.0,0.01589984805859797 180.0 0,1 5.0,-167.999151" />
+      <path d="M 5.0,-167.999151 A 5.0,0.01589984805859797 180.0 0,1 -0.015,-167.983251" />
+      <line x1="-8.0" y1="167.999151" x2="-8.0" y2="-167.999151" />
+      <line x1="8.0" y1="167.999151" x2="8.0" y2="-167.999151" />
+    </g>
+    <g fill="none" stroke="rgb(119,119,119)" stroke-width="0.2" id="hidden" stroke-dasharray="2.4 0.6">
+      <path d="M -8.0,167.999151 A 8.0,0.025439756893756754 180.0 0,1 8.0,167.999151" />
+      <path d="M -0.015,168.01505 A 5.0,0.01589984805859797 180.0 0,1 -5.0,167.999151" />
+      <path d="M -5.0,167.999151 A 5.0,0.01589984805859797 180.0 0,1 5.0,167.999151" />
+      <path d="M 5.0,167.999151 A 5.0,0.01589984805859797 180.0 0,1 -0.015,168.01505" />
+      <line x1="-5.0" y1="167.999151" x2="-5.0" y2="-167.999151" />
+      <line x1="5.0" y1="167.999151" x2="5.0" y2="-167.999151" />
+    </g>
+  </g>
+</svg><line x1="296.8" y1="125.1" x2="301.2" y2="125.1" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="299.0" y="123.5" font-size="4.2" text-anchor="middle">16.0</text><line x1="307.2" y1="26.9" x2="307.2" y2="119.1" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="311.7" y="73.0" font-size="4.2" text-anchor="middle" transform="rotate(90 311.7 73.0)">336.0</text><rect x="12.0" y="142.0" width="186.0" height="118.0" fill="none" stroke="#bbb" stroke-width="0.2"/><text x="15.0" y="148.0" font-size="4.6" fill="#666">TOP (X-Z)</text><svg x="102.8" y="198.6" width="4.5" height="4.8"  viewBox="-8.175 -8.680569 16.35 17.361139" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(1,-1)" stroke-linecap="round">
+    <g fill="none" stroke="rgb(0,0,0)" stroke-width="0.09" id="visible">
+      <path d="M -8.0,0.505606 A 8.0,7.999963770189326 -5.822759427655298e-16 0,0 8.0,0.505606" />
+      <line x1="8.0" y1="-0.505606" x2="8.0" y2="0.505606" />
+      <path d="M 8.0,-0.505606 A 8.0,7.999963770189326 -5.822759427655298e-16 0,0 -8.0,-0.505606" />
+      <path d="M -8.0,-0.505606 A 8.0,7.999963770189326 -5.822759427655298e-16 0,0 8.0,-0.505606" />
+      <path d="M 4.97437,-0.0 A 5.0,4.999977356368329 -5.822759427655298e-16 0,0 -4.97437,-0.0" />
+      <path d="M 5.0,-0.505606 A 5.0,4.999977356368329 -5.822759427655298e-16 0,0 -5.0,-0.505606" />
+      <path d="M -5.0,-0.505606 A 5.0,4.999977356368329 -5.822759427655298e-16 0,0 5.0,-0.505606" />
+      <line x1="-8.0" y1="-0.505606" x2="-8.0" y2="0.505606" />
+    </g>
+    <g fill="none" stroke="rgb(119,119,119)" stroke-width="0.2" id="hidden" stroke-dasharray="2.4 0.6">
+      <path d="M 8.0,0.505606 A 8.0,7.999963770189326 -5.822759427655298e-16 0,0 -8.0,0.505606" />
+      <path d="M 5.0,0.505606 A 5.0,4.999977356368329 -5.822759427655298e-16 0,0 4.97437,-0.0" />
+      <path d="M -4.97437,-0.0 A 5.0,4.999977356368329 -5.822759427655298e-16 0,0 -5.0,0.505606" />
+      <path d="M -5.0,0.505606 A 5.0,4.999977356368329 -5.822759427655298e-16 0,0 5.0,0.505606" />
+      <line x1="5.0" y1="-0.505606" x2="5.0" y2="0.505606" />
+      <line x1="-5.0" y1="-0.505606" x2="-5.0" y2="0.505606" />
+    </g>
+  </g>
+</svg><line x1="102.8" y1="209.4" x2="107.2" y2="209.4" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="105.0" y="207.8" font-size="4.2" text-anchor="middle">16.0</text><line x1="113.2" y1="198.6" x2="113.2" y2="203.4" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="117.7" y="201.0" font-size="4.2" text-anchor="middle" transform="rotate(90 117.7 201.0)">16.0</text><rect x="206.0" y="142.0" width="186.0" height="118.0" fill="none" stroke="#333" stroke-width="0.5"/><line x1="206.0" y1="142.0" x2="392.0" y2="142.0" stroke="#999" stroke-width="0.2"/><text x="209.0" y="151.0" font-size="3.6" fill="#777">PART</text><text x="240.0" y="151.0" font-size="4.4" font-weight="bold">HARVEST_HOSE</text><line x1="206.0" y1="156.8" x2="392.0" y2="156.8" stroke="#999" stroke-width="0.2"/><text x="209.0" y="165.7" font-size="3.6" fill="#777">PROJECT</text><text x="240.0" y="165.7" font-size="4.4" font-weight="bold">BEEHIVE DIGITAL TWIN 1:1 (ISI + FLOW SUPER)</text><line x1="206.0" y1="171.5" x2="392.0" y2="171.5" stroke="#999" stroke-width="0.2"/><text x="209.0" y="180.5" font-size="3.6" fill="#777">MATERIAL</text><text x="240.0" y="180.5" font-size="4.4" font-weight="bold">FOOD-GRADE SILICONE</text><line x1="206.0" y1="186.2" x2="392.0" y2="186.2" stroke="#999" stroke-width="0.2"/><text x="209.0" y="195.2" font-size="3.6" fill="#777">QTY</text><text x="240.0" y="195.2" font-size="4.4" font-weight="bold">1</text><line x1="206.0" y1="201.0" x2="392.0" y2="201.0" stroke="#999" stroke-width="0.2"/><text x="209.0" y="210.0" font-size="3.6" fill="#777">BBOX (mm)</text><text x="240.0" y="210.0" font-size="4.4" font-weight="bold">16.0 x 336.0 x 16.0</text><line x1="206.0" y1="215.8" x2="392.0" y2="215.8" stroke="#999" stroke-width="0.2"/><text x="209.0" y="224.7" font-size="3.6" fill="#777">SCALE</text><text x="240.0" y="224.7" font-size="4.4" font-weight="bold">1:3.7</text><line x1="206.0" y1="230.5" x2="392.0" y2="230.5" stroke="#999" stroke-width="0.2"/><text x="209.0" y="239.5" font-size="3.6" fill="#777">UNITS</text><text x="240.0" y="239.5" font-size="4.4" font-weight="bold">mm  |  FITS: SLIDE 0.4, STATIC 0.2</text><line x1="206.0" y1="245.2" x2="392.0" y2="245.2" stroke="#999" stroke-width="0.2"/><text x="209.0" y="254.2" font-size="3.6" fill="#777">SHEET</text><text x="240.0" y="254.2" font-size="4.4" font-weight="bold">36 / 37   2026-07-14</text>
+</svg>

@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420.0mm" height="297.0mm"
+ viewBox="0 0 420.0 297.0" font-family="Arial, sans-serif" fill="#111">
+<defs><marker id="arr" viewBox="0 0 6 6" refX="3" refY="3" markerWidth="5"
+ markerHeight="5" orient="auto-start-reverse">
+ <path d="M0,0 L6,3 L0,6 z" fill="#444"/></marker></defs>
+<rect width="420.0" height="297.0" fill="white"/>
+<rect x="4" y="4" width="412.0" height="289.0" fill="none"
+ stroke="#333" stroke-width="0.6"/>
+<text x="12.0" y="11" font-size="6" font-weight="bold">roof_tin</text>
+<text x="408.0" y="11" font-size="4.5" text-anchor="end"
+ fill="#666">Beekeeping DTL - Digital Twin - third-angle projection</text>
+<rect x="12.0" y="14" width="186.0" height="118.0" fill="none" stroke="#bbb" stroke-width="0.2"/><text x="15.0" y="20" font-size="4.6" fill="#666">FRONT (X-Y)</text><svg x="48.5" y="70.9" width="112.9" height="4.3"  viewBox="-270.675 -3.689086 541.35 20.516165" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(1,-1)" stroke-linecap="round">
+    <g fill="none" stroke="rgb(0,0,0)" stroke-width="0.09" id="visible">
+      <line x1="-270.5" y1="-13.485476" x2="-270.5" y2="3.514086" />
+      <line x1="-270.5" y1="-16.652079" x2="-270.5" y2="-13.485476" />
+      <line x1="270.5" y1="-13.485476" x2="-270.5" y2="-13.485476" />
+      <line x1="270.5" y1="-16.652079" x2="270.5" y2="-13.485476" />
+      <line x1="270.5" y1="-16.652079" x2="-270.5" y2="-16.652079" />
+      <line x1="-268.5" y1="-13.499837" x2="268.5" y2="-13.499837" />
+      <line x1="-268.5" y1="-16.637718" x2="-268.5" y2="-13.499837" />
+      <line x1="-268.5" y1="-16.637718" x2="268.5" y2="-16.637718" />
+      <line x1="268.5" y1="-16.637718" x2="268.5" y2="-13.499837" />
+      <line x1="268.5" y1="-16.637718" x2="268.5" y2="-13.499837" />
+      <line x1="-268.5" y1="-16.637718" x2="-268.5" y2="-13.499837" />
+      <line x1="270.5" y1="-13.485476" x2="270.5" y2="3.514086" />
+      <line x1="-270.5" y1="3.514086" x2="270.5" y2="3.514086" />
+    </g>
+    <g fill="none" stroke="rgb(119,119,119)" stroke-width="0.2" id="hidden" stroke-dasharray="2.4 0.6">
+      <line x1="-270.5" y1="0.347483" x2="-270.5" y2="-16.652079" />
+      <line x1="-270.5" y1="0.347483" x2="-270.5" y2="3.514086" />
+      <line x1="268.5" y1="-13.499837" x2="268.5" y2="1.499777" />
+      <line x1="268.5" y1="-1.638105" x2="268.5" y2="1.499777" />
+      <line x1="268.5" y1="-13.499837" x2="268.5" y2="-1.638105" />
+      <line x1="-268.5" y1="1.499777" x2="268.5" y2="1.499777" />
+      <line x1="-268.5" y1="-1.638105" x2="-268.5" y2="1.499777" />
+      <line x1="-268.5" y1="-1.638105" x2="268.5" y2="-1.638105" />
+      <line x1="-268.5" y1="-13.499837" x2="-268.5" y2="-1.638105" />
+      <line x1="-268.5" y1="-13.499837" x2="-268.5" y2="1.499777" />
+      <line x1="270.5" y1="0.347483" x2="270.5" y2="-16.652079" />
+      <line x1="270.5" y1="0.347483" x2="270.5" y2="3.514086" />
+      <line x1="-270.5" y1="0.347483" x2="270.5" y2="0.347483" />
+    </g>
+  </g>
+</svg><line x1="48.5" y1="81.1" x2="161.5" y2="81.1" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="105.0" y="79.5" font-size="4.2" text-anchor="middle">541.0</text><line x1="167.5" y1="70.9" x2="167.5" y2="75.1" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="172.0" y="73.0" font-size="4.2" text-anchor="middle" transform="rotate(90 172.0 73.0)">17.0</text><rect x="206.0" y="14" width="186.0" height="118.0" fill="none" stroke="#bbb" stroke-width="0.2"/><text x="209.0" y="20" font-size="4.6" fill="#666">SIDE (Z-Y)</text><svg x="253.0" y="70.8" width="92.1" height="4.4"  viewBox="-220.675 -4.048111 441.35 21.234216" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(1,-1)" stroke-linecap="round">
+    <g fill="none" stroke="rgb(0,0,0)" stroke-width="0.09" id="visible">
+      <line x1="220.5" y1="-17.011104" x2="-220.5" y2="-17.011104" />
+      <line x1="-220.5" y1="-13.12645" x2="-220.5" y2="-17.011104" />
+      <line x1="220.5" y1="-13.12645" x2="-220.5" y2="-13.12645" />
+      <line x1="220.5" y1="-13.12645" x2="220.5" y2="-17.011104" />
+      <line x1="-218.5" y1="-16.996743" x2="-218.5" y2="-13.140811" />
+      <line x1="218.5" y1="-16.996743" x2="-218.5" y2="-16.996743" />
+      <line x1="218.5" y1="-16.996743" x2="218.5" y2="-13.140811" />
+      <line x1="218.5" y1="-13.140811" x2="-218.5" y2="-13.140811" />
+      <line x1="218.5" y1="-16.996743" x2="218.5" y2="-13.140811" />
+      <line x1="-218.5" y1="-16.996743" x2="-218.5" y2="-13.140811" />
+      <line x1="-220.5" y1="-13.12645" x2="-220.5" y2="3.873111" />
+      <line x1="220.5" y1="3.873111" x2="220.5" y2="-13.12645" />
+      <line x1="220.5" y1="3.873111" x2="-220.5" y2="3.873111" />
+    </g>
+    <g fill="none" stroke="rgb(119,119,119)" stroke-width="0.2" id="hidden" stroke-dasharray="2.4 0.6">
+      <line x1="220.5" y1="-0.011543" x2="220.5" y2="-17.011104" />
+      <line x1="220.5" y1="-0.011543" x2="-220.5" y2="-0.011543" />
+      <line x1="-220.5" y1="-17.011104" x2="-220.5" y2="-0.011543" />
+      <line x1="-218.5" y1="-13.140811" x2="-218.5" y2="1.858802" />
+      <line x1="218.5" y1="1.858802" x2="-218.5" y2="1.858802" />
+      <line x1="218.5" y1="-13.140811" x2="218.5" y2="1.858802" />
+      <line x1="-218.5" y1="-1.99713" x2="-218.5" y2="1.858802" />
+      <line x1="218.5" y1="-1.99713" x2="-218.5" y2="-1.99713" />
+      <line x1="218.5" y1="-1.99713" x2="218.5" y2="1.858802" />
+      <line x1="218.5" y1="-13.140811" x2="218.5" y2="-1.99713" />
+      <line x1="-218.5" y1="-13.140811" x2="-218.5" y2="-1.99713" />
+      <line x1="-220.5" y1="-0.011543" x2="-220.5" y2="3.873111" />
+      <line x1="220.5" y1="-0.011543" x2="220.5" y2="3.873111" />
+    </g>
+  </g>
+</svg><line x1="253.0" y1="81.2" x2="345.0" y2="81.2" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="299.0" y="79.6" font-size="4.2" text-anchor="middle">441.0</text><line x1="351.0" y1="70.8" x2="351.0" y2="75.2" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="355.5" y="73.0" font-size="4.2" text-anchor="middle" transform="rotate(90 355.5 73.0)">17.0</text><rect x="12.0" y="142.0" width="186.0" height="118.0" fill="none" stroke="#bbb" stroke-width="0.2"/><text x="15.0" y="148.0" font-size="4.6" fill="#666">TOP (X-Z)</text><svg x="48.5" y="155.0" width="112.9" height="92.1"  viewBox="-270.675 -220.675 541.35 441.35" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(1,-1)" stroke-linecap="round">
+    <g fill="none" stroke="rgb(0,0,0)" stroke-width="0.09" id="visible">
+      <line x1="-270.5" y1="220.5" x2="-270.5" y2="-220.5" />
+      <line x1="270.5" y1="220.5" x2="270.5" y2="-220.5" />
+      <line x1="-270.5" y1="-220.5" x2="270.5" y2="-220.5" />
+      <line x1="-270.5" y1="220.5" x2="270.5" y2="220.5" />
+    </g>
+    <g fill="none" stroke="rgb(119,119,119)" stroke-width="0.2" id="hidden" stroke-dasharray="2.4 0.6">
+      <line x1="-270.5" y1="220.5" x2="-270.5" y2="-220.5" />
+      <line x1="270.5" y1="-220.5" x2="-270.5" y2="-220.5" />
+      <line x1="270.5" y1="220.5" x2="270.5" y2="-220.5" />
+      <line x1="270.5" y1="220.5" x2="-270.5" y2="220.5" />
+      <line x1="-268.5" y1="-218.5" x2="268.5" y2="-218.5" />
+      <line x1="-268.5" y1="218.5" x2="-268.5" y2="-218.5" />
+      <line x1="-268.5" y1="218.5" x2="268.5" y2="218.5" />
+      <line x1="268.5" y1="218.5" x2="268.5" y2="-218.5" />
+      <line x1="268.5" y1="218.5" x2="268.5" y2="-218.5" />
+      <line x1="-268.5" y1="-218.5" x2="268.5" y2="-218.5" />
+      <line x1="-268.5" y1="218.5" x2="-268.5" y2="-218.5" />
+      <line x1="-268.5" y1="218.5" x2="268.5" y2="218.5" />
+    </g>
+  </g>
+</svg><line x1="48.5" y1="253.0" x2="161.5" y2="253.0" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="105.0" y="251.4" font-size="4.2" text-anchor="middle">541.0</text><line x1="167.5" y1="155.0" x2="167.5" y2="247.0" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="172.0" y="201.0" font-size="4.2" text-anchor="middle" transform="rotate(90 172.0 201.0)">441.0</text><rect x="206.0" y="142.0" width="186.0" height="118.0" fill="none" stroke="#333" stroke-width="0.5"/><line x1="206.0" y1="142.0" x2="392.0" y2="142.0" stroke="#999" stroke-width="0.2"/><text x="209.0" y="151.0" font-size="3.6" fill="#777">PART</text><text x="240.0" y="151.0" font-size="4.4" font-weight="bold">ROOF_TIN</text><line x1="206.0" y1="156.8" x2="392.0" y2="156.8" stroke="#999" stroke-width="0.2"/><text x="209.0" y="165.7" font-size="3.6" fill="#777">PROJECT</text><text x="240.0" y="165.7" font-size="4.4" font-weight="bold">BEEHIVE DIGITAL TWIN 1:1 (ISI + FLOW SUPER)</text><line x1="206.0" y1="171.5" x2="392.0" y2="171.5" stroke="#999" stroke-width="0.2"/><text x="209.0" y="180.5" font-size="3.6" fill="#777">MATERIAL</text><text x="240.0" y="180.5" font-size="4.4" font-weight="bold">GALVANISED TIN 2 MM</text><line x1="206.0" y1="186.2" x2="392.0" y2="186.2" stroke="#999" stroke-width="0.2"/><text x="209.0" y="195.2" font-size="3.6" fill="#777">QTY</text><text x="240.0" y="195.2" font-size="4.4" font-weight="bold">1</text><line x1="206.0" y1="201.0" x2="392.0" y2="201.0" stroke="#999" stroke-width="0.2"/><text x="209.0" y="210.0" font-size="3.6" fill="#777">BBOX (mm)</text><text x="240.0" y="210.0" font-size="4.4" font-weight="bold">541.0 x 17.0 x 441.0</text><line x1="206.0" y1="215.8" x2="392.0" y2="215.8" stroke="#999" stroke-width="0.2"/><text x="209.0" y="224.7" font-size="3.6" fill="#777">SCALE</text><text x="240.0" y="224.7" font-size="4.4" font-weight="bold">1:4.8</text><line x1="206.0" y1="230.5" x2="392.0" y2="230.5" stroke="#999" stroke-width="0.2"/><text x="209.0" y="239.5" font-size="3.6" fill="#777">UNITS</text><text x="240.0" y="239.5" font-size="4.4" font-weight="bold">mm  |  FITS: SLIDE 0.4, STATIC 0.2</text><line x1="206.0" y1="245.2" x2="392.0" y2="245.2" stroke="#999" stroke-width="0.2"/><text x="209.0" y="254.2" font-size="3.6" fill="#777">SHEET</text><text x="240.0" y="254.2" font-size="4.4" font-weight="bold">33 / 37   2026-07-14</text>
+</svg>

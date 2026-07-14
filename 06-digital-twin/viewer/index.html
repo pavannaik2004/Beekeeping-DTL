@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Beehive Digital Twin — 1:1 CAD Viewer</title>
+<style>
+  :root {
+    --bg: #14110c; --panel: #1f1a12ee; --line: #3a3020;
+    --txt: #efe6d2; --dim: #a8987a; --honey: #f0a818; --honey2: #c8880c;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { height: 100%; overflow: hidden; }
+  body { background: var(--bg); color: var(--txt);
+         font: 14px/1.45 "Segoe UI", system-ui, sans-serif; }
+  #scene { position: fixed; inset: 0; }
+  #panel {
+    position: fixed; top: 0; left: 0; bottom: 0; width: 320px;
+    background: var(--panel); border-right: 1px solid var(--line);
+    padding: 18px 16px; overflow-y: auto; backdrop-filter: blur(6px);
+  }
+  h1 { font-size: 17px; color: var(--honey); letter-spacing: .3px; }
+  .sub { color: var(--dim); font-size: 12px; margin: 4px 0 14px; }
+  .sect { border-top: 1px solid var(--line); margin-top: 14px; padding-top: 12px; }
+  .sect h2 { font-size: 11px; text-transform: uppercase; letter-spacing: 1.2px;
+             color: var(--honey2); margin-bottom: 10px; }
+  .ctl { margin-bottom: 12px; }
+  .ctl label { display: flex; justify-content: space-between; font-size: 13px;
+               margin-bottom: 4px; }
+  .ctl output { color: var(--honey); font-variant-numeric: tabular-nums; }
+  input[type=range] { width: 100%; accent-color: var(--honey); }
+  .toggles { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 10px; }
+  .toggles label { display: flex; gap: 6px; align-items: center; font-size: 12.5px;
+                   color: var(--txt); cursor: pointer; }
+  .toggles input { accent-color: var(--honey); }
+  #info { font-size: 12px; color: var(--dim); }
+  #info b { color: var(--txt); }
+  #hover { position: fixed; pointer-events: none; background: #000c;
+           border: 1px solid var(--line); border-radius: 6px; padding: 6px 9px;
+           font-size: 12px; display: none; z-index: 5; }
+  #hover b { color: var(--honey); }
+  #err { position: fixed; inset: 0; display: none; place-items: center;
+         background: var(--bg); z-index: 10; text-align: center; padding: 30px; }
+  #err code { background: #000; padding: 3px 8px; border-radius: 4px;
+              color: var(--honey); }
+  button.small { background: none; border: 1px solid var(--line); color: var(--dim);
+                 border-radius: 5px; padding: 3px 10px; font-size: 12px; cursor: pointer; }
+  button.small:hover { color: var(--honey); border-color: var(--honey2); }
+</style>
+</head>
+<body>
+<div id="scene"></div>
+
+<div id="panel">
+  <h1>🐝 Beehive Digital Twin</h1>
+  <div class="sub">1:1 parametric CAD — all dimensions in&nbsp;mm.<br>
+    ISI hive · flow super · inspection windows</div>
+
+  <div class="sect"><h2>Mechanisms</h2>
+    <div class="ctl"><label>Left shutter <output id="v_sl">0 mm</output></label>
+      <input type="range" id="s_sl" min="0" max="150" value="0" step="1"></div>
+    <div class="ctl"><label>Back shutter <output id="v_sb">0 mm</output></label>
+      <input type="range" id="s_sb" min="0" max="150" value="0" step="1"></div>
+    <div class="ctl"><label>Flow key — harvest <output id="v_hv">closed</output></label>
+      <input type="range" id="s_hv" min="0" max="1" value="0" step="0.01"></div>
+    <div class="ctl"><label>Exploded view <output id="v_ex">0%</output></label>
+      <input type="range" id="s_ex" min="0" max="1" value="0" step="0.01"></div>
+  </div>
+
+  <div class="sect"><h2>Modules</h2>
+    <div class="toggles" id="toggles"></div>
+  </div>
+
+  <div class="sect"><h2>Key dimensions</h2>
+    <div id="info">
+      Brood box <b>505 × 405 × 245</b> · walls <b>20</b><br>
+      Flow super <b>505 × 405 × 150</b> · 7 frames @ <b>50</b><br>
+      Roof <b>535 × 435 × 70</b> · floor <b>555 × 455 × 20</b><br>
+      Entrance <b>365 × 10</b> · bee space <b>9</b><br>
+      Windows <b>200 × 140</b> / <b>180 × 120</b> acrylic<br>
+      Excluder slots <b>4.2</b> · key cam lift <b>5.0</b><br>
+      Slide fit <b>0.4</b> · static fit <b>0.2</b>
+    </div>
+  </div>
+
+  <div class="sect">
+    <button class="small" id="resetCam">Reset camera</button>
+    <span class="sub" style="font-size:11px"> drag: orbit · wheel: zoom · hover: part info</span>
+  </div>
+</div>
+
+<div id="hover"></div>
+
+<div id="err"><div>
+  <h1>Cannot load model</h1>
+  <p style="margin:12px 0">This page fetches <code>../exports/glb/hive.glb</code> —
+  it must be served over HTTP, and the export must have been generated.</p>
+  <p>From the <code>06-digital-twin</code> folder run:<br><br>
+  <code>python -m hive_twin.export</code> &nbsp;then&nbsp; <code>python -m http.server 8000</code><br><br>
+  and open <code>http://localhost:8000/viewer/</code></p>
+</div></div>
+
+<script type="importmap">
+{ "imports": {
+    "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/" } }
+</script>
+<script type="module">
+import * as THREE from "three";
+import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setSize(innerWidth, innerHeight);
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.shadowMap.enabled = true;
+document.getElementById("scene").appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x14110c);
+scene.fog = new THREE.Fog(0x14110c, 3200, 6200);
+
+const camera = new THREE.PerspectiveCamera(45, innerWidth / innerHeight, 1, 10000);
+const HOME = new THREE.Vector3(950, 720, 1150);
+camera.position.copy(HOME);
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.target.set(0, 400, 0);
+controls.enableDamping = true;
+
+scene.add(new THREE.HemisphereLight(0xfff3dd, 0x35291a, 1.0));
+const sun = new THREE.DirectionalLight(0xffffff, 2.2);
+sun.position.set(700, 1100, 500);
+sun.castShadow = true;
+sun.shadow.mapSize.set(2048, 2048);
+const d = 900;
+Object.assign(sun.shadow.camera, { left: -d, right: d, top: d, bottom: -d, far: 3200 });
+scene.add(sun);
+
+const ground = new THREE.Mesh(
+  new THREE.CircleGeometry(2600, 64).rotateX(-Math.PI / 2),
+  new THREE.MeshStandardMaterial({ color: 0x241d12, roughness: 1 }));
+ground.receiveShadow = true;
+scene.add(ground);
+scene.add(new THREE.GridHelper(2600, 26, 0x3a3020, 0x2a2318));
+
+// ------------------------------------------------------------------ loading
+const nodes = {}, base = {}, meta = {};
+let manifest = null, keyPivot = null;
+
+async function load() {
+  const mResp = await fetch("../exports/glb/manifest.json");
+  manifest = await mResp.json();
+  manifest.parts.forEach(p => meta[p.name] = p);
+
+  const gltf = await new GLTFLoader().loadAsync("../exports/glb/hive.glb");
+  gltf.scene.traverse(o => {
+    if (!o.isMesh) return;
+    // trimesh names nodes; mesh may carry the node's name or its parent's
+    const name = meta[o.name] ? o.name : (meta[o.parent?.name] ? o.parent.name : null);
+    if (!name) return;
+    o.castShadow = o.receiveShadow = true;
+    if (o.material) { o.material.side = THREE.DoubleSide; }
+    // only use the parent if it is THIS part's dedicated node — trimesh
+    // parents every mesh under one shared "world" node
+    nodes[name] = (o.parent && o.parent.name === name) ? o.parent : o;
+    base[name] = nodes[name].position.clone();
+    o.userData.partName = name;
+  });
+  scene.add(gltf.scene);
+
+  // pivot for the flow key rotation
+  const hv = manifest.actions.find(a => a.id === "harvest");
+  const kp = new THREE.Vector3(...hv.key_axis_point);
+  keyPivot = new THREE.Group();
+  keyPivot.position.copy(kp);
+  const key = nodes[hv.key_node];
+  key.parent.add(keyPivot);
+  keyPivot.attach(key);   // preserves world transform
+  buildToggles();
+
+  // initial state via URL, e.g. ?sl=150&sb=150&hv=1&ex=0.6  (great for sharing)
+  const q = new URLSearchParams(location.search);
+  for (const [k, sid, fmt] of [["sl", "s_sl", v => v + " mm"],
+                               ["sb", "s_sb", v => v + " mm"],
+                               ["hv", "s_hv", v => v >= 1 ? "OPEN (+5 mm)" : Math.round(v * 90) + "°"],
+                               ["ex", "s_ex", v => Math.round(v * 100) + "%"]]) {
+    if (q.has(k)) {
+      state[k] = +q.get(k);
+      S(sid).value = state[k];
+      S(sid.replace("s_", "v_")).value = fmt(state[k]);
+    }
+  }
+  apply();
+}
+load().catch(e => { console.error(e); document.getElementById("err").style.display = "grid"; });
+
+// ------------------------------------------------------------------ controls
+const S = id => document.getElementById(id);
+const state = { sl: 0, sb: 0, hv: 0, ex: 0 };
+
+function apply() {
+  if (!manifest) return;
+  const acts = Object.fromEntries(manifest.actions.map(a => [a.id, a]));
+  for (const [name, node] of Object.entries(nodes)) {
+    if (!base[name]) continue;
+    const p = base[name].clone();
+    p.y += (meta[name]?.explode_y || 0) * state.ex * 1.2;
+    if (name === "shutter_left")  p.z += state.sl;
+    if (name === "shutter_back")  p.x -= state.sb;
+    if (acts.harvest.lift_nodes.includes(name)) p.y += acts.harvest.lift * state.hv;
+    node.position.copy(p);
+  }
+  if (keyPivot) {
+    keyPivot.rotation.z = THREE.MathUtils.degToRad(acts.harvest.key_angle_deg) * state.hv;
+    keyPivot.position.y = acts.harvest.key_axis_point[1] +
+      (meta["super_wall_front"].explode_y * state.ex * 1.2);
+  }
+}
+
+S("s_sl").oninput = e => { state.sl = +e.target.value; S("v_sl").value = state.sl + " mm"; apply(); };
+S("s_sb").oninput = e => { state.sb = +e.target.value; S("v_sb").value = state.sb + " mm"; apply(); };
+S("s_hv").oninput = e => { state.hv = +e.target.value;
+  S("v_hv").value = state.hv === 0 ? "closed" : state.hv === 1 ? "OPEN (+5 mm)"
+    : Math.round(state.hv * 90) + "°"; apply(); };
+S("s_ex").oninput = e => { state.ex = +e.target.value;
+  S("v_ex").value = Math.round(state.ex * 100) + "%"; apply(); };
+S("resetCam").onclick = () => { camera.position.copy(HOME); controls.target.set(0, 400, 0); };
+
+// ------------------------------------------------------------------ toggles
+function buildToggles() {
+  const groups = {};
+  manifest.parts.forEach(p => (groups[p.group] ??= { label: p.group_label, parts: [] })
+    .parts.push(p.name));
+  const holder = document.getElementById("toggles");
+  for (const [g, info] of Object.entries(groups)) {
+    const l = document.createElement("label");
+    const c = document.createElement("input");
+    c.type = "checkbox"; c.checked = true;
+    c.onchange = () => info.parts.forEach(n => { if (nodes[n]) nodes[n].visible = c.checked; });
+    l.append(c, info.label);
+    holder.append(l);
+  }
+}
+
+// ------------------------------------------------------------------ hover
+const ray = new THREE.Raycaster(), mouse = new THREE.Vector2();
+const hoverEl = document.getElementById("hover");
+addEventListener("pointermove", ev => {
+  mouse.set((ev.clientX / innerWidth) * 2 - 1, -(ev.clientY / innerHeight) * 2 + 1);
+  ray.setFromCamera(mouse, camera);
+  const hits = ray.intersectObjects(scene.children, true)
+    .filter(h => h.object.userData.partName && h.object.visible);
+  if (hits.length) {
+    const m = meta[hits[0].object.userData.partName];
+    hoverEl.innerHTML = `<b>${m.name}</b><br>${m.group_label} · ${m.material}`;
+    hoverEl.style.display = "block";
+    hoverEl.style.left = ev.clientX + 14 + "px";
+    hoverEl.style.top = ev.clientY + 14 + "px";
+  } else hoverEl.style.display = "none";
+});
+
+addEventListener("resize", () => {
+  camera.aspect = innerWidth / innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(innerWidth, innerHeight);
+});
+
+(function tick() {
+  requestAnimationFrame(tick);
+  controls.update();
+  renderer.render(scene, camera);
+})();
+</script>
+</body>
+</html>

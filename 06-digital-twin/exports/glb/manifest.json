@@ -1,0 +1,523 @@
+{
+  "title": "Beehive Digital Twin \u2014 1:1 (all dimensions mm)",
+  "units": "mm",
+  "parts": [
+    {
+      "name": "stand_foot",
+      "group": "stand",
+      "group_label": "Stand + water ring",
+      "material": "Concrete / dense wood",
+      "color": "#7d8288",
+      "opacity": 1.0,
+      "explode_y": 0
+    },
+    {
+      "name": "stand_pole",
+      "group": "stand",
+      "group_label": "Stand + water ring",
+      "material": "Pine wood (roof/floor)",
+      "color": "#a87b4a",
+      "opacity": 1.0,
+      "explode_y": 0
+    },
+    {
+      "name": "stand_platform",
+      "group": "stand",
+      "group_label": "Stand + water ring",
+      "material": "Pine wood (roof/floor)",
+      "color": "#a87b4a",
+      "opacity": 1.0,
+      "explode_y": 0
+    },
+    {
+      "name": "water_ring",
+      "group": "stand",
+      "group_label": "Stand + water ring",
+      "material": "HDPE (water ring)",
+      "color": "#4aa3df",
+      "opacity": 1.0,
+      "explode_y": 0
+    },
+    {
+      "name": "floor_board",
+      "group": "floor",
+      "group_label": "Floor board",
+      "material": "Pine wood (roof/floor)",
+      "color": "#a87b4a",
+      "opacity": 1.0,
+      "explode_y": 40
+    },
+    {
+      "name": "brood_wall_front",
+      "group": "brood",
+      "group_label": "Brood box",
+      "material": "Pine wood 20 mm",
+      "color": "#c89b5f",
+      "opacity": 1.0,
+      "explode_y": 80
+    },
+    {
+      "name": "brood_wall_back",
+      "group": "brood",
+      "group_label": "Brood box",
+      "material": "Pine wood 20 mm",
+      "color": "#c89b5f",
+      "opacity": 1.0,
+      "explode_y": 80
+    },
+    {
+      "name": "brood_wall_left",
+      "group": "brood",
+      "group_label": "Brood box",
+      "material": "Pine wood 20 mm",
+      "color": "#c89b5f",
+      "opacity": 1.0,
+      "explode_y": 80
+    },
+    {
+      "name": "brood_wall_right",
+      "group": "brood",
+      "group_label": "Brood box",
+      "material": "Pine wood 20 mm",
+      "color": "#c89b5f",
+      "opacity": 1.0,
+      "explode_y": 80
+    },
+    {
+      "name": "insulation_left",
+      "group": "insulation",
+      "group_label": "Insulation (XPS)",
+      "material": "XPS foam 10 mm",
+      "color": "#f2b8c6",
+      "opacity": 1.0,
+      "explode_y": 80
+    },
+    {
+      "name": "insulation_right",
+      "group": "insulation",
+      "group_label": "Insulation (XPS)",
+      "material": "XPS foam 10 mm",
+      "color": "#f2b8c6",
+      "opacity": 1.0,
+      "explode_y": 80
+    },
+    {
+      "name": "insulation_back",
+      "group": "insulation",
+      "group_label": "Insulation (XPS)",
+      "material": "XPS foam 10 mm",
+      "color": "#f2b8c6",
+      "opacity": 1.0,
+      "explode_y": 80
+    },
+    {
+      "name": "window_frame_left",
+      "group": "windows",
+      "group_label": "Inspection windows",
+      "material": "MDF",
+      "color": "#8a6b46",
+      "opacity": 1.0,
+      "explode_y": 80
+    },
+    {
+      "name": "acrylic_left",
+      "group": "windows",
+      "group_label": "Inspection windows",
+      "material": "Clear acrylic 5 mm",
+      "color": "#9fd8ff",
+      "opacity": 0.35,
+      "explode_y": 80
+    },
+    {
+      "name": "shutter_left",
+      "group": "windows",
+      "group_label": "Inspection windows",
+      "material": "Plywood shutter 3 mm",
+      "color": "#6b4a2b",
+      "opacity": 1.0,
+      "explode_y": 80
+    },
+    {
+      "name": "stop_pin_left",
+      "group": "windows",
+      "group_label": "Inspection windows",
+      "material": "Stainless steel",
+      "color": "#9aa2a9",
+      "opacity": 1.0,
+      "explode_y": 80
+    },
+    {
+      "name": "window_frame_back",
+      "group": "windows",
+      "group_label": "Inspection windows",
+      "material": "MDF",
+      "color": "#8a6b46",
+      "opacity": 1.0,
+      "explode_y": 80
+    },
+    {
+      "name": "acrylic_back",
+      "group": "windows",
+      "group_label": "Inspection windows",
+      "material": "Clear acrylic 5 mm",
+      "color": "#9fd8ff",
+      "opacity": 0.35,
+      "explode_y": 80
+    },
+    {
+      "name": "shutter_back",
+      "group": "windows",
+      "group_label": "Inspection windows",
+      "material": "Plywood shutter 3 mm",
+      "color": "#6b4a2b",
+      "opacity": 1.0,
+      "explode_y": 80
+    },
+    {
+      "name": "stop_pin_back",
+      "group": "windows",
+      "group_label": "Inspection windows",
+      "material": "Stainless steel",
+      "color": "#9aa2a9",
+      "opacity": 1.0,
+      "explode_y": 80
+    },
+    {
+      "name": "queen_excluder",
+      "group": "excluder",
+      "group_label": "Queen excluder",
+      "material": "Stainless steel",
+      "color": "#9aa2a9",
+      "opacity": 1.0,
+      "explode_y": 130
+    },
+    {
+      "name": "super_wall_front",
+      "group": "super",
+      "group_label": "Flow super",
+      "material": "Pine wood 20 mm",
+      "color": "#c89b5f",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "super_wall_back",
+      "group": "super",
+      "group_label": "Flow super",
+      "material": "Pine wood 20 mm",
+      "color": "#c89b5f",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "super_wall_left",
+      "group": "super",
+      "group_label": "Flow super",
+      "material": "Pine wood 20 mm",
+      "color": "#c89b5f",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "super_wall_right",
+      "group": "super",
+      "group_label": "Flow super",
+      "material": "Pine wood 20 mm",
+      "color": "#c89b5f",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "ff0_fixed",
+      "group": "frames",
+      "group_label": "Flow frames",
+      "material": "Food-grade PP",
+      "color": "#f5e6c8",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "ff0_moving",
+      "group": "frames",
+      "group_label": "Flow frames",
+      "material": "Food-grade PP (moving)",
+      "color": "#e0c896",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "ff1_fixed",
+      "group": "frames",
+      "group_label": "Flow frames",
+      "material": "Food-grade PP",
+      "color": "#f5e6c8",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "ff1_moving",
+      "group": "frames",
+      "group_label": "Flow frames",
+      "material": "Food-grade PP (moving)",
+      "color": "#e0c896",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "ff2_fixed",
+      "group": "frames",
+      "group_label": "Flow frames",
+      "material": "Food-grade PP",
+      "color": "#f5e6c8",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "ff2_moving",
+      "group": "frames",
+      "group_label": "Flow frames",
+      "material": "Food-grade PP (moving)",
+      "color": "#e0c896",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "ff3_fixed",
+      "group": "frames",
+      "group_label": "Flow frames",
+      "material": "Food-grade PP",
+      "color": "#f5e6c8",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "ff3_moving",
+      "group": "frames",
+      "group_label": "Flow frames",
+      "material": "Food-grade PP (moving)",
+      "color": "#e0c896",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "ff4_fixed",
+      "group": "frames",
+      "group_label": "Flow frames",
+      "material": "Food-grade PP",
+      "color": "#f5e6c8",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "ff4_moving",
+      "group": "frames",
+      "group_label": "Flow frames",
+      "material": "Food-grade PP (moving)",
+      "color": "#e0c896",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "ff5_fixed",
+      "group": "frames",
+      "group_label": "Flow frames",
+      "material": "Food-grade PP",
+      "color": "#f5e6c8",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "ff5_moving",
+      "group": "frames",
+      "group_label": "Flow frames",
+      "material": "Food-grade PP (moving)",
+      "color": "#e0c896",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "ff6_fixed",
+      "group": "frames",
+      "group_label": "Flow frames",
+      "material": "Food-grade PP",
+      "color": "#f5e6c8",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "ff6_moving",
+      "group": "frames",
+      "group_label": "Flow frames",
+      "material": "Food-grade PP (moving)",
+      "color": "#e0c896",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "flow_key",
+      "group": "frames",
+      "group_label": "Flow frames",
+      "material": "Painted steel (key)",
+      "color": "#cc4444",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "feeder_funnel",
+      "group": "feeder",
+      "group_label": "Top feeder",
+      "material": "HDPE / plastic",
+      "color": "#e8e8e8",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "feeder_tray",
+      "group": "feeder",
+      "group_label": "Top feeder",
+      "material": "HDPE / plastic",
+      "color": "#e8e8e8",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "inner_cover",
+      "group": "cover",
+      "group_label": "Inner cover",
+      "material": "Pine wood 20 mm",
+      "color": "#c89b5f",
+      "opacity": 1.0,
+      "explode_y": 240
+    },
+    {
+      "name": "roof_body",
+      "group": "roof",
+      "group_label": "Telescoping roof",
+      "material": "Pine wood (roof/floor)",
+      "color": "#a87b4a",
+      "opacity": 1.0,
+      "explode_y": 300
+    },
+    {
+      "name": "roof_tin",
+      "group": "roof",
+      "group_label": "Telescoping roof",
+      "material": "Galvanised tin 2 mm",
+      "color": "#b9c0c7",
+      "opacity": 1.0,
+      "explode_y": 300
+    },
+    {
+      "name": "manifold",
+      "group": "plumbing",
+      "group_label": "Harvest plumbing",
+      "material": "Stainless steel",
+      "color": "#9aa2a9",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "harvest_tap",
+      "group": "plumbing",
+      "group_label": "Harvest plumbing",
+      "material": "Stainless steel",
+      "color": "#9aa2a9",
+      "opacity": 1.0,
+      "explode_y": 180
+    },
+    {
+      "name": "harvest_hose",
+      "group": "ground",
+      "group_label": "Hose + jar",
+      "material": "Food-grade silicone",
+      "color": "#f0f0f0",
+      "opacity": 0.7,
+      "explode_y": 0
+    },
+    {
+      "name": "collection_jar",
+      "group": "ground",
+      "group_label": "Hose + jar",
+      "material": "Glass",
+      "color": "#cfe8f0",
+      "opacity": 0.4,
+      "explode_y": 0
+    }
+  ],
+  "actions": [
+    {
+      "id": "shutter_left",
+      "label": "Left shutter",
+      "type": "translate",
+      "nodes": [
+        "shutter_left"
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "range": [
+        0,
+        150.0
+      ]
+    },
+    {
+      "id": "shutter_back",
+      "label": "Back shutter",
+      "type": "translate",
+      "nodes": [
+        "shutter_back"
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "range": [
+        0,
+        150.0
+      ]
+    },
+    {
+      "id": "harvest",
+      "label": "Flow key (harvest)",
+      "type": "harvest",
+      "key_node": "flow_key",
+      "key_axis_point": [
+        0,
+        621.4,
+        0
+      ],
+      "key_axis": [
+        0,
+        0,
+        1
+      ],
+      "key_angle_deg": 90,
+      "lift_nodes": [
+        "ff0_moving",
+        "ff1_moving",
+        "ff2_moving",
+        "ff3_moving",
+        "ff4_moving",
+        "ff5_moving",
+        "ff6_moving"
+      ],
+      "lift": 5.0,
+      "range": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "explode",
+      "label": "Exploded view",
+      "type": "explode",
+      "range": [
+        0,
+        1
+      ]
+    }
+  ]
+}

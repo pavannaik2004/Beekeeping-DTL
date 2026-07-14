@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420.0mm" height="297.0mm"
+ viewBox="0 0 420.0 297.0" font-family="Arial, sans-serif" fill="#111">
+<defs><marker id="arr" viewBox="0 0 6 6" refX="3" refY="3" markerWidth="5"
+ markerHeight="5" orient="auto-start-reverse">
+ <path d="M0,0 L6,3 L0,6 z" fill="#444"/></marker></defs>
+<rect width="420.0" height="297.0" fill="white"/>
+<rect x="4" y="4" width="412.0" height="289.0" fill="none"
+ stroke="#333" stroke-width="0.6"/>
+<text x="12.0" y="11" font-size="6" font-weight="bold">stand_foot</text>
+<text x="408.0" y="11" font-size="4.5" text-anchor="end"
+ fill="#666">Beekeeping DTL - Digital Twin - third-angle projection</text>
+<rect x="12.0" y="14" width="186.0" height="118.0" fill="none" stroke="#bbb" stroke-width="0.2"/><text x="15.0" y="20" font-size="4.6" fill="#666">FRONT (X-Y)</text><svg x="58.9" y="69.0" width="92.2" height="8.0"  viewBox="-105.175 -9.98746 210.35 18.365159" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(1,-1)" stroke-linecap="round">
+    <g fill="none" stroke="rgb(0,0,0)" stroke-width="0.09" id="visible">
+      <path d="M -79.999999,9.805906 A 80.0,0.006555275873443039 4.209429085605951e-38 0,0 79.999999,9.805906" />
+      <path d="M 105.0,-8.194095 A 105.0,0.00860379958389399 4.209429085605951e-38 1,0 -104.999999,-8.194094" />
+      <path d="M -104.999999,-8.194094 A 105.0,0.00860379958389399 4.209429085605951e-38 0,0 104.999999,-8.194094" />
+      <line x1="79.999999" y1="9.805906" x2="104.999999" y2="-8.194094" />
+      <line x1="-79.999999" y1="9.805906" x2="-104.999999" y2="-8.194094" />
+    </g>
+    <g fill="none" stroke="rgb(119,119,119)" stroke-width="0.2" id="hidden" stroke-dasharray="2.4 0.6">
+      <path d="M 80.0,9.805905 A 80.0,0.006555275873443039 4.209429085605951e-38 1,0 -79.999999,9.805906" />
+    </g>
+  </g>
+</svg><line x1="58.9" y1="83.0" x2="151.1" y2="83.0" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="105.0" y="81.4" font-size="4.2" text-anchor="middle">210.0</text><line x1="157.1" y1="69.0" x2="157.1" y2="77.0" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="161.6" y="73.0" font-size="4.2" text-anchor="middle" transform="rotate(90 161.6 73.0)">18.0</text><rect x="206.0" y="14" width="186.0" height="118.0" fill="none" stroke="#bbb" stroke-width="0.2"/><text x="209.0" y="20" font-size="4.6" fill="#666">SIDE (Z-Y)</text><svg x="252.9" y="69.0" width="92.2" height="8.0"  viewBox="-105.175 -9.98746 210.35 18.365159" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(1,-1)" stroke-linecap="round">
+    <g fill="none" stroke="rgb(0,0,0)" stroke-width="0.09" id="visible">
+      <path d="M -0.0,9.81246 A 80.0,0.006555275873443039 0.0 0,0 79.999999,9.805906" />
+      <path d="M -79.999999,9.805906 A 80.0,0.006555275873443039 0.0 0,0 -0.0,9.81246" />
+      <path d="M -0.0,-8.185491 A 105.0,0.00860379958389399 0.0 0,0 104.999999,-8.194094" />
+      <path d="M 104.999999,-8.194094 A 105.0,0.00860379958389399 0.0 1,0 -104.999999,-8.194094" />
+      <path d="M -104.999999,-8.194094 A 105.0,0.00860379958389399 0.0 0,0 -0.0,-8.185491" />
+      <line x1="79.999999" y1="9.805906" x2="104.999999" y2="-8.194094" />
+      <line x1="-79.999999" y1="9.805906" x2="-104.999999" y2="-8.194094" />
+    </g>
+    <g fill="none" stroke="rgb(119,119,119)" stroke-width="0.2" id="hidden" stroke-dasharray="2.4 0.6">
+      <path d="M 79.999999,9.805906 A 80.0,0.006555275873443039 0.0 1,0 -79.999999,9.805906" />
+    </g>
+  </g>
+</svg><line x1="252.9" y1="83.0" x2="345.1" y2="83.0" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="299.0" y="81.4" font-size="4.2" text-anchor="middle">210.0</text><line x1="351.1" y1="69.0" x2="351.1" y2="77.0" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="355.6" y="73.0" font-size="4.2" text-anchor="middle" transform="rotate(90 355.6 73.0)">18.0</text><rect x="12.0" y="142.0" width="186.0" height="118.0" fill="none" stroke="#bbb" stroke-width="0.2"/><text x="15.0" y="148.0" font-size="4.6" fill="#666">TOP (X-Z)</text><svg x="58.9" y="154.9" width="92.2" height="92.2"  viewBox="-105.175 -105.175 210.35 210.35" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(1,-1)" stroke-linecap="round">
+    <g fill="none" stroke="rgb(0,0,0)" stroke-width="0.09" id="visible">
+      <circle cx="0.0" cy="-0.0" r="80.0" />
+      <circle cx="0.0" cy="-0.0" r="105.0" />
+    </g>
+  </g>
+</svg><line x1="58.9" y1="253.1" x2="151.1" y2="253.1" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="105.0" y="251.5" font-size="4.2" text-anchor="middle">210.0</text><line x1="157.1" y1="154.9" x2="157.1" y2="247.1" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="161.6" y="201.0" font-size="4.2" text-anchor="middle" transform="rotate(90 161.6 201.0)">210.0</text><rect x="206.0" y="142.0" width="186.0" height="118.0" fill="none" stroke="#333" stroke-width="0.5"/><line x1="206.0" y1="142.0" x2="392.0" y2="142.0" stroke="#999" stroke-width="0.2"/><text x="209.0" y="151.0" font-size="3.6" fill="#777">PART</text><text x="240.0" y="151.0" font-size="4.4" font-weight="bold">STAND_FOOT</text><line x1="206.0" y1="156.8" x2="392.0" y2="156.8" stroke="#999" stroke-width="0.2"/><text x="209.0" y="165.7" font-size="3.6" fill="#777">PROJECT</text><text x="240.0" y="165.7" font-size="4.4" font-weight="bold">BEEHIVE DIGITAL TWIN 1:1 (ISI + FLOW SUPER)</text><line x1="206.0" y1="171.5" x2="392.0" y2="171.5" stroke="#999" stroke-width="0.2"/><text x="209.0" y="180.5" font-size="3.6" fill="#777">MATERIAL</text><text x="240.0" y="180.5" font-size="4.4" font-weight="bold">CONCRETE / DENSE WOOD</text><line x1="206.0" y1="186.2" x2="392.0" y2="186.2" stroke="#999" stroke-width="0.2"/><text x="209.0" y="195.2" font-size="3.6" fill="#777">QTY</text><text x="240.0" y="195.2" font-size="4.4" font-weight="bold">1</text><line x1="206.0" y1="201.0" x2="392.0" y2="201.0" stroke="#999" stroke-width="0.2"/><text x="209.0" y="210.0" font-size="3.6" fill="#777">BBOX (mm)</text><text x="240.0" y="210.0" font-size="4.4" font-weight="bold">210.0 x 18.0 x 210.0</text><line x1="206.0" y1="215.8" x2="392.0" y2="215.8" stroke="#999" stroke-width="0.2"/><text x="209.0" y="224.7" font-size="3.6" fill="#777">SCALE</text><text x="240.0" y="224.7" font-size="4.4" font-weight="bold">1:2.3</text><line x1="206.0" y1="230.5" x2="392.0" y2="230.5" stroke="#999" stroke-width="0.2"/><text x="209.0" y="239.5" font-size="3.6" fill="#777">UNITS</text><text x="240.0" y="239.5" font-size="4.4" font-weight="bold">mm  |  FITS: SLIDE 0.4, STATIC 0.2</text><line x1="206.0" y1="245.2" x2="392.0" y2="245.2" stroke="#999" stroke-width="0.2"/><text x="209.0" y="254.2" font-size="3.6" fill="#777">SHEET</text><text x="240.0" y="254.2" font-size="4.4" font-weight="bold">1 / 37   2026-07-14</text>
+</svg>

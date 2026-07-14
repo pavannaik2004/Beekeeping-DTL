@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420.0mm" height="297.0mm"
+ viewBox="0 0 420.0 297.0" font-family="Arial, sans-serif" fill="#111">
+<defs><marker id="arr" viewBox="0 0 6 6" refX="3" refY="3" markerWidth="5"
+ markerHeight="5" orient="auto-start-reverse">
+ <path d="M0,0 L6,3 L0,6 z" fill="#444"/></marker></defs>
+<rect width="420.0" height="297.0" fill="white"/>
+<rect x="4" y="4" width="412.0" height="289.0" fill="none"
+ stroke="#333" stroke-width="0.6"/>
+<text x="12.0" y="11" font-size="6" font-weight="bold">insulation_left</text>
+<text x="408.0" y="11" font-size="4.5" text-anchor="end"
+ fill="#666">Beekeeping DTL - Digital Twin - third-angle projection</text>
+<rect x="12.0" y="14" width="186.0" height="118.0" fill="none" stroke="#bbb" stroke-width="0.2"/><text x="15.0" y="20" font-size="4.6" fill="#666">FRONT (X-Y)</text><svg x="103.6" y="42.4" width="2.8" height="61.2"  viewBox="-5.476128 -122.957634 11.180764 242.702172" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(1,-1)" stroke-linecap="round">
+    <g fill="none" stroke="rgb(0,0,0)" stroke-width="0.09" id="visible">
+      <line x1="-4.470338" y1="-119.569537" x2="-5.301128" y2="-118.215792" />
+      <line x1="-5.301128" y1="-118.215792" x2="-5.301128" y2="122.78255" />
+      <line x1="-4.470338" y1="-119.569537" x2="5.529636" y2="-119.569453" />
+      <line x1="5.529636" y1="-119.569453" x2="4.698846" y2="-118.215708" />
+      <line x1="-5.301128" y1="-118.215792" x2="4.698846" y2="-118.215708" />
+      <line x1="-5.301128" y1="122.78255" x2="4.698846" y2="122.782634" />
+      <line x1="4.698846" y1="-118.215708" x2="4.698846" y2="122.782634" />
+      <line x1="5.529636" y1="-119.569453" x2="5.529636" y2="121.42889" />
+      <line x1="5.529636" y1="121.42889" x2="4.698846" y2="122.782634" />
+      <line x1="5.018644" y1="85.430988" x2="5.528498" y2="85.430992" />
+      <line x1="5.528498" y1="85.430992" x2="5.528498" y2="-78.56788" />
+      <line x1="5.528498" y1="85.430992" x2="5.018644" y2="86.261783" />
+      <line x1="5.018644" y1="86.261783" x2="5.018644" y2="-77.737089" />
+      <line x1="5.528498" y1="-78.56788" x2="5.018644" y2="-77.737089" />
+    </g>
+    <g fill="none" stroke="rgb(119,119,119)" stroke-width="0.2" id="hidden" stroke-dasharray="2.4 0.6">
+      <line x1="-4.470338" y1="-119.569537" x2="-4.470338" y2="121.428805" />
+      <line x1="-4.470338" y1="121.428805" x2="-5.301128" y2="122.78255" />
+      <line x1="-4.471476" y1="85.430907" x2="-4.471476" y2="-78.567965" />
+      <line x1="-4.471476" y1="85.430907" x2="-4.981331" y2="86.261699" />
+      <line x1="-4.981331" y1="86.261699" x2="-4.981331" y2="-77.737173" />
+      <line x1="-4.471476" y1="-78.567965" x2="-4.981331" y2="-77.737173" />
+      <line x1="-4.470338" y1="121.428805" x2="5.529636" y2="121.42889" />
+      <line x1="-4.471476" y1="85.430907" x2="5.018644" y2="85.430988" />
+      <line x1="-4.471476" y1="-78.567965" x2="5.528498" y2="-78.56788" />
+      <line x1="-4.981331" y1="86.261699" x2="5.018644" y2="86.261783" />
+      <line x1="-4.981331" y1="-77.737173" x2="5.018644" y2="-77.737089" />
+    </g>
+  </g>
+</svg><line x1="103.6" y1="109.6" x2="106.4" y2="109.6" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="105.0" y="108.0" font-size="4.2" text-anchor="middle">10.0</text><line x1="112.4" y1="42.4" x2="112.4" y2="103.6" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="116.9" y="73.0" font-size="4.2" text-anchor="middle" transform="rotate(90 116.9 73.0)">241.0</text><rect x="206.0" y="14" width="186.0" height="118.0" fill="none" stroke="#bbb" stroke-width="0.2"/><text x="209.0" y="20" font-size="4.6" fill="#666">SIDE (Z-Y)</text><svg x="253.0" y="42.6" width="92.1" height="60.8"  viewBox="-132.480919 -122.485822 365.354962 241.386014" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(1,-1)" stroke-linecap="round">
+    <g fill="none" stroke="rgb(0,0,0)" stroke-width="0.09" id="visible">
+      <line x1="232.699043" y1="-118.724516" x2="-132.300911" y2="-118.725192" />
+      <line x1="232.699043" y1="-118.724516" x2="232.699043" y2="122.273836" />
+      <line x1="232.194035" y1="86.274081" x2="8.199071" y2="86.273666" />
+      <line x1="8.199071" y1="86.273666" x2="8.199071" y2="-77.688226" />
+      <line x1="232.699043" y1="-118.724516" x2="232.694035" y2="-118.687529" />
+      <line x1="232.694035" y1="-118.687529" x2="-132.305919" y2="-118.688205" />
+      <line x1="-132.300911" y1="-118.725192" x2="-132.305919" y2="-118.688205" />
+      <line x1="-132.305919" y1="-118.688205" x2="-132.305919" y2="122.310146" />
+      <line x1="232.699043" y1="122.273836" x2="232.694035" y2="122.310822" />
+      <line x1="232.694035" y1="-118.687529" x2="232.694035" y2="122.310822" />
+      <line x1="232.694035" y1="122.310822" x2="-132.305919" y2="122.310146" />
+      <line x1="232.194035" y1="86.311068" x2="232.194035" y2="-77.687811" />
+      <line x1="232.194035" y1="86.311068" x2="8.194063" y2="86.310653" />
+      <line x1="8.199071" y1="86.273666" x2="8.194063" y2="86.310653" />
+      <line x1="8.194063" y1="86.310653" x2="8.194063" y2="-77.688226" />
+      <line x1="232.194035" y1="-77.687811" x2="8.194063" y2="-77.688226" />
+    </g>
+    <g fill="none" stroke="rgb(119,119,119)" stroke-width="0.2" id="hidden" stroke-dasharray="2.4 0.6">
+      <line x1="-132.300911" y1="-118.725192" x2="-132.300911" y2="122.27316" />
+      <line x1="232.699043" y1="122.273836" x2="-132.300911" y2="122.27316" />
+      <line x1="232.199043" y1="86.274081" x2="232.199043" y2="-77.724797" />
+      <line x1="8.199071" y1="-77.688226" x2="8.199071" y2="-77.725212" />
+      <line x1="232.199043" y1="-77.724797" x2="8.199071" y2="-77.725212" />
+      <line x1="-132.300911" y1="122.27316" x2="-132.305919" y2="122.310146" />
+      <line x1="232.199043" y1="86.274081" x2="232.194035" y2="86.311068" />
+      <line x1="232.199043" y1="-77.724797" x2="232.194035" y2="-77.687811" />
+      <line x1="8.199071" y1="-77.725212" x2="8.194063" y2="-77.688226" />
+    </g>
+  </g>
+</svg><line x1="253.0" y1="109.4" x2="345.0" y2="109.4" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="299.0" y="107.8" font-size="4.2" text-anchor="middle">365.0</text><line x1="351.0" y1="42.6" x2="351.0" y2="103.4" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="355.5" y="73.0" font-size="4.2" text-anchor="middle" transform="rotate(90 355.5 73.0)">241.0</text><rect x="12.0" y="142.0" width="186.0" height="118.0" fill="none" stroke="#bbb" stroke-width="0.2"/><text x="15.0" y="148.0" font-size="4.6" fill="#666">TOP (X-Z)</text><svg x="103.6" y="154.9" width="2.7" height="92.1"  viewBox="-5.454237 -232.931353 10.900288 365.471388" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(1,-1)" stroke-linecap="round">
+    <g fill="none" stroke="rgb(0,0,0)" stroke-width="0.09" id="visible">
+      <line x1="-4.728924" y1="232.756353" x2="-5.279237" y2="232.63493" />
+      <line x1="-5.279237" y1="232.63493" x2="-5.279237" y2="-132.365024" />
+      <line x1="-4.728924" y1="232.756353" x2="5.27105" y2="232.756341" />
+      <line x1="5.27105" y1="232.756341" x2="5.27105" y2="-132.243612" />
+      <line x1="-5.279237" y1="-132.365024" x2="4.720737" y2="-132.365035" />
+      <line x1="5.27105" y1="-132.243612" x2="4.720737" y2="-132.365035" />
+      <line x1="-5.279237" y1="232.63493" x2="4.720737" y2="232.634918" />
+      <line x1="5.27105" y1="232.756341" x2="4.720737" y2="232.634918" />
+      <line x1="4.720737" y1="232.634918" x2="4.720737" y2="-132.365035" />
+      <line x1="4.802941" y1="232.153056" x2="5.177428" y2="232.235684" />
+      <line x1="4.802941" y1="232.153056" x2="4.802941" y2="8.153085" />
+      <line x1="4.802941" y1="8.153085" x2="5.177428" y2="8.235713" />
+      <line x1="4.802941" y1="8.235713" x2="5.177428" y2="8.235713" />
+      <line x1="5.177428" y1="232.235684" x2="5.177428" y2="8.235713" />
+    </g>
+    <g fill="none" stroke="rgb(119,119,119)" stroke-width="0.2" id="hidden" stroke-dasharray="2.4 0.6">
+      <line x1="-4.728924" y1="232.756353" x2="-4.728924" y2="-132.243601" />
+      <line x1="-4.728924" y1="-132.243601" x2="-5.279237" y2="-132.365024" />
+      <line x1="-5.197033" y1="232.153068" x2="-4.822546" y2="232.235696" />
+      <line x1="-5.197033" y1="232.153068" x2="-5.197033" y2="8.153096" />
+      <line x1="-5.197033" y1="8.153096" x2="-4.822546" y2="8.235724" />
+      <line x1="-4.822546" y1="232.235696" x2="-4.822546" y2="8.235724" />
+      <line x1="-4.728924" y1="-132.243601" x2="5.27105" y2="-132.243612" />
+      <line x1="-5.197033" y1="232.153068" x2="4.802941" y2="232.153056" />
+      <line x1="-4.822546" y1="232.235696" x2="5.177428" y2="232.235684" />
+      <line x1="-5.197033" y1="8.153096" x2="4.802941" y2="8.153085" />
+      <line x1="-4.822546" y1="8.235724" x2="4.802941" y2="8.235713" />
+    </g>
+  </g>
+</svg><line x1="103.6" y1="253.1" x2="106.4" y2="253.1" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="105.0" y="251.5" font-size="4.2" text-anchor="middle">10.0</text><line x1="112.4" y1="154.9" x2="112.4" y2="247.1" stroke="#444" stroke-width="0.25" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="116.9" y="201.0" font-size="4.2" text-anchor="middle" transform="rotate(90 116.9 201.0)">365.0</text><rect x="206.0" y="142.0" width="186.0" height="118.0" fill="none" stroke="#333" stroke-width="0.5"/><line x1="206.0" y1="142.0" x2="392.0" y2="142.0" stroke="#999" stroke-width="0.2"/><text x="209.0" y="151.0" font-size="3.6" fill="#777">PART</text><text x="240.0" y="151.0" font-size="4.4" font-weight="bold">INSULATION_LEFT</text><line x1="206.0" y1="156.8" x2="392.0" y2="156.8" stroke="#999" stroke-width="0.2"/><text x="209.0" y="165.7" font-size="3.6" fill="#777">PROJECT</text><text x="240.0" y="165.7" font-size="4.4" font-weight="bold">BEEHIVE DIGITAL TWIN 1:1 (ISI + FLOW SUPER)</text><line x1="206.0" y1="171.5" x2="392.0" y2="171.5" stroke="#999" stroke-width="0.2"/><text x="209.0" y="180.5" font-size="3.6" fill="#777">MATERIAL</text><text x="240.0" y="180.5" font-size="4.4" font-weight="bold">XPS FOAM 10 MM</text><line x1="206.0" y1="186.2" x2="392.0" y2="186.2" stroke="#999" stroke-width="0.2"/><text x="209.0" y="195.2" font-size="3.6" fill="#777">QTY</text><text x="240.0" y="195.2" font-size="4.4" font-weight="bold">1</text><line x1="206.0" y1="201.0" x2="392.0" y2="201.0" stroke="#999" stroke-width="0.2"/><text x="209.0" y="210.0" font-size="3.6" fill="#777">BBOX (mm)</text><text x="240.0" y="210.0" font-size="4.4" font-weight="bold">10.0 x 241.0 x 365.0</text><line x1="206.0" y1="215.8" x2="392.0" y2="215.8" stroke="#999" stroke-width="0.2"/><text x="209.0" y="224.7" font-size="3.6" fill="#777">SCALE</text><text x="240.0" y="224.7" font-size="4.4" font-weight="bold">1:4.0</text><line x1="206.0" y1="230.5" x2="392.0" y2="230.5" stroke="#999" stroke-width="0.2"/><text x="209.0" y="239.5" font-size="3.6" fill="#777">UNITS</text><text x="240.0" y="239.5" font-size="4.4" font-weight="bold">mm  |  FITS: SLIDE 0.4, STATIC 0.2</text><line x1="206.0" y1="245.2" x2="392.0" y2="245.2" stroke="#999" stroke-width="0.2"/><text x="209.0" y="254.2" font-size="3.6" fill="#777">SHEET</text><text x="240.0" y="254.2" font-size="4.4" font-weight="bold">10 / 37   2026-07-14</text>
+</svg>
